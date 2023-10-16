@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        body{
+            background-color: deeppink;
+            
+        }
+        label{
+            display: block;
+            margin-bottom: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Siyam's Restaurant</h1>
+    <form>
+        <label for="Name">Your Name <input type="text" name="name" id="Name">
+        </label><br>
+        <label for="Table Number">Your Table Number <input type="number" name="number" id="Table Number">
+        </label>
+        <fieldset>
+            <legend>
+                <label for="Pitha"><b>Select Your Pitha</b></label>
+            </legend>
+            <label for="Pua">Pua <input type="radio" name="Pitha" id="Pua"></label>
+            <label for="Chitoi">Chitoi <input type="radio"name="Pitha"  id="Chitoi"></label>
+            <label for="Patishapta">Patishapta <input type="radio"name="Pitha"  id="Patishapta"></label>
+
+        </fieldset>
+        <fieldset>
+            <legend><b>Select Your Chatni</b></legend>
+            <label for="Shutki">Shutki <input type="checkbox" name="Chatni" id="Shutki"></label>
+            <label for="Begun">Begun <input type="checkbox" name="Chatni" id="Begun"></label>
+            <label for="Aloo">Shutki <input type="checkbox" name="Chatni" id="Aloo"></label>
+
+        </fieldset>
+        <fieldset>
+            <legend><b>Special Requirements</b></legend>
+            <textarea name="Text" id="" cols="70" rows="5"></textarea>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+    
+</body>
+</html>
